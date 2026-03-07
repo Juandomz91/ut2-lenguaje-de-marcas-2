@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invitación a un asado</title>
+</head>
+
+<body id="inicio">
+
+<header>
+<h1 title="Petición importante">¡Necesito un asado urgente!</h1>
+<p class="intro">
+Hola Gema! Esta página es una petición oficial para que me invites a tu casa a comer un delicioso asado.
+</p>
+</header>
+
+<nav aria-label="Menú de navegación">
+<ul>
+<li><a href="#motivo">¿Por qué?</a></li>
+<li><a href="#beneficios">Beneficios</a></li>
+<li><a href="#menu">Menú sugerido</a></li>
+<li><a href="#formulario">Confirmar invitación</a></li>
+</ul>
+</nav>
+
+<main>
+
+<section id="motivo">
+<h2>Motivo de esta petición</h2>
+
+<p>
+Actualmente mi nevera está en una situación crítica: <strong>completamente vacía</strong>.
+Por ello recurro a tu generosidad culinaria.
+</p>
+
+<img src="https://www.gettyimages.es/fotos/asado-argentino"
+alt="Parrilla con carne asándose"
+title="A mi me gusta al punto"
+width="400">
+
+<h3>Pruebas de la situación</h3>
+
+<ul>
+<li>No hay comida en la nevera</li>
+<li>No hay comida en la despensa</li>
+<li>Mi estómago está protestando</li>
+</ul>
+
+<p>
+No es que te diga lo que me debes cocinar... pero...
+<a href="https://es.wikipedia.org/wiki/Asado" target="_blank" rel="noopener">
+por aqui te dejo esta página sobre el asado
+</a>.
+</p>
+</section>
+
+<section id="beneficios">
+<h2>Beneficios de invitarme</h2>
+
+<ol>
+<li>Tendrás compañía divertida</li>
+<li>Alguien que elogie tu comida</li>
+<li>Prometo ayudar a recoger la mesa</li>
+<li>Podemos ver una película después</li>
+</ol>
+</section>
+
+<section id="menu">
+<h2>Menú sugerido para el asado</h2>
+
+<table border="1">
+<caption>Propuesta gastronómica</caption>
+<thead>
+<tr>
+<th scope="col">Plato</th>
+<th scope="col">Nivel de importancia</th>
+<th scope="col">Mi entusiasmo</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Costillas</td>
+<td>Muy alto</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+
+<tr>
+<td>Chorizo</td>
+<td>Alto</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+
+<tr>
+<td>Verduras a la parrilla</td>
+<td>Medio</td>
+<td>⭐⭐⭐</td>
+</tr>
+
+<tr>
+<td>Postre</td>
+<td>Obligatorio</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+
+<section id="formulario">
+<h2>Formulario oficial de invitación</h2>
+
+<form action="#" method="post" aria-labelledby="formulario">
+
+<div>
+<label for="nombre">Tu nombre:</label>
+<input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
+</div>
+
+<br>
+
+<div>
+<label for="fecha">¿Cuándo me invitas?</label>
+<input type="date" id="fecha" name="fecha" required>
+</div>
+
+<br>
+
+<div>
+<label for="menuElegido">¿Qué habrá en el asado?</label>
+<select id="menuElegido" name="menu">
+<option value="costillas">Costillas</option>
+<option value="chorizo">Chorizo</option>
+<option value="mixto">Un poco de todo</option>
+</select>
+</div>
+
+<br>
+
+<div>
+<label for="mensaje">Mensaje adicional:</label><br>
+<textarea id="mensaje" name="mensaje" rows="4" cols="40"
+placeholder="Puedes confirmar que sí me invitas 😄"></textarea>
+</div>
+
+<br>
+
+<button type="submit">Confirmar invitación</button>
+<button type="reset">Borrar</button>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>
+Página creada con hambre 🍖 |
+<a href="#inicio">Volver arriba</a>
+</p>
+</footer>
+
+</body>
+</html>
